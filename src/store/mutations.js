@@ -16,7 +16,7 @@ export default {
   [REMBER_ANSWER](state, id) {
     state.answerid.push(id);
   },
-  //记录做题时间 
+  //记录做题时间
   [REMBER_TIME](state) {
     state.timer = setInterval(() => {
       state.allTime++;
